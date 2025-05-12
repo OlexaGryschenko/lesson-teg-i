@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Урок по тегу &lt;i&gt;</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Урок по тегу &lt;i&gt;</h1>
+      <h2>Добро пожаловать в мир иконок!</h2>
+    </div>
+    <p>Вот несколько иконок, которые вы можете использовать:</p>
+    <div class="wrapper">
+      <ul class="icon-list">
+        <li class="color-inherit"><i class="fas fa-camera icon-list-first"></i> <span class="non-inherrit">Камера</span>
+        </li>
+        <li class="color-inherit"><i class="fas fa-home"></i> <span class="non-inherrit">Главная</span></li>
+        <li class="color-inherit"><i class="fas fa-envelope"></i> <span class="non-inherrit">Почта</span></li>
+        <li class="color-inherit"><i class="fas fa-phone-alt"></i> <span class="non-inherrit">Телефон</span></li>
+      </ul>
+      <picture>
+          <img class="img"
+            src="https://images.unsplash.com/photo-1735825764451-d2186b7f4bf9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="working">
+        </picture>
+    </div>
+    <div class="button">
+      <button>
+        <i class="fas fa-search"></i> Поиск
+      </button>
+    </div>
+</body>
+<p>
+  The classes fas and fa-search belong to Font Awesome, a popular icon library used in web development.
+</p>
+
+<ul>
+  <li>
+    <i class="fas fa-smile"></i> fas (Font Awesome Solid): This class specifies that the icon should
+    use the solid style. Font Awesome provides
+    different styles, including solid (fas), regular (far), light (fal), and others.
+  </li>
+  <li> <i class="fas fa-smile"></i>
+    fa-search: This class applies the specific "search" icon from Font Awesome. When combined with fas, it renders the
+    solid version of the search icon.
+  </li>
+</ul>
+
+
+In your HTML snippet, these classes ensure that the <i> elements display Font Awesome icons properly. To make them
+  work, you need to include Font Awesome in your project—either by linking to their CDN or installing it via npm.
+  <p>Этот код создает список иконок с использованием Font Awesome. Каждая иконка представлена тегом <i> с
+      соответствующими классами, которые определяют стиль и тип иконки. Например, <i
+        class="fas fa-camera  icon-list"></i>
+      отображает иконку камеры.</p>
+  <p>Чтобы использовать Font Awesome, вы можете подключить его через CDN, как показано в примере, или установить его
+    локально в вашем проекте.</p>
+  
+  <p><a href="https://fontawesome.com/icons?d=gallery&m=free">Font Awesome Icons</a></p>
+  <p><a href="https://cdnjs.com/libraries/font-awesome">Font Awesome CDN</a></p>
+  </p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  <script src="./scripts/script.js"></script>
+
